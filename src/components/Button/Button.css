@@ -1,0 +1,15 @@
+.mintoak-library-button {
+  @apply font-medium rounded-lg text-[12px] lg:text-sm px-5 py-2.5 mr-2  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 focus:outline-none;
+}
+
+.mintoak-library-default-button {
+  @apply text-white bg-gray-700 hover:bg-gray-900 hover:text-gray-200;
+}
+
+.mintoak-library-grey-button {
+  @apply text-black bg-gray-200 hover:bg-gray-300 hover:text-gray-800;
+}
+
+.mintoak-library-green-button {
+  @apply text-black bg-green-200 hover:bg-green-300 hover:text-gray-800;
+}

@@ -1,0 +1,8 @@
+.mintoak-library-prduct-list-main-container {
+  @apply relative flex items-center space-x-2;
+}
+
+.mintoak-library-prduct-list-inner-container {
+  @apply flex flex-col w-full;
+}
+

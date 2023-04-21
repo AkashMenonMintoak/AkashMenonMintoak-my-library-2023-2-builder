@@ -1,0 +1,23 @@
+.mintoak-library-prduct-list-item-main {
+  @apply flex items-center justify-between p-4 capitalize border-b last:border-b-0;
+}
+
+.mintoak-library-prduct-list-item-image {
+  @apply w-8 h-8 border md:w-12 md:h-12 rounded-2xl;
+}
+
+.mintoak-library-prduct-list-item-name {
+  @apply flex-initial w-16 lg:w-52
+}
+
+.mintoak-library-prduct-list-item-add-subtract-div {
+  @apply flex flex-col items-center justify-center w-28;
+}
+
+.mintoak-library-prduct-list-item-add-subtract-buttons-flex {
+  @apply flex items-center justify-center p-1 px-2 space-x-3 border rounded-2xl;
+}
+
+.mintoak-library-prduct-list-item-mrp {
+  @apply text-xs text-gray-400 line-through text-end;
+}

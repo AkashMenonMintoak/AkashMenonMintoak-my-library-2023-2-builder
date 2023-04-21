@@ -1,0 +1,15 @@
+.mintoak-library-process-payment-main-container {
+  @apply fixed bottom-0 flex justify-between w-full p-3 bg-white shadow-sm rounded-2xl sm:static;
+}
+
+.mintoak-library-process-payment-content {
+  @apply relative flex items-center space-x-4;
+}
+
+.mintoak-library-process-payment-content > .payment-icon {
+  @apply p-3 text-white bg-black rounded-xl;
+}
+
+.mintoak-library-process-payment-content > .make-payment {
+  @apply hidden text-start sm:block;
+}

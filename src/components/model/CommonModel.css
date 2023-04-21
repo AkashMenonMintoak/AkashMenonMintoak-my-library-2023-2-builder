@@ -1,0 +1,31 @@
+.mintoak-library-common-modal-container {
+  @apply w-full relative z-50
+}
+
+.mintoak-library-common-modal-main-div {
+  @apply fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm;
+}
+
+.mintoak-library-common-modal-inner-div {
+  @apply fixed inset-0 bg-black bg-opacity-25;
+}
+
+.mintoak-library-common-modal-body {
+  @apply fixed inset-0 overflow-y-auto;
+}
+
+.mintoak-library-common-modal-inner-body {
+  @apply flex items-center justify-center min-h-full p-4 text-center;
+}
+
+.mintoak-library-common-modal-dialog {
+  @apply relative w-full p-5 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl;
+}
+
+.mintoak-library-common-modal-dialog-title {
+  @apply text-lg font-medium leading-6 text-gray-900;
+}
+
+.mintoak-library-common-modal-close-button {
+  @apply absolute top-1 right-1 text-rose-500;
+}

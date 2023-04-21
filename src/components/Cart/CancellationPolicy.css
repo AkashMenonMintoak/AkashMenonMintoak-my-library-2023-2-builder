@@ -1,0 +1,7 @@
+.mintoak-library-cancelation-policy-div {
+  @apply p-5 space-y-3 bg-white rounded-lg shadow-sm;
+}
+
+.mintoak-library-cancelation-policy-ul {
+  @apply px-4 text-sm list-disc text-black/50;
+}
